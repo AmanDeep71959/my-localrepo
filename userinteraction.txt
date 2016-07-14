@@ -1,0 +1,61 @@
+package com.flp.ems.view;
+
+import java.util.Scanner;
+
+public class UserInteraction {
+	Scanner in=new Scanner(System.in);
+
+	public void addEmployee()
+	{
+		System.out.println("enter the Name");
+		String name=in.next();
+		System.out.println("enter the Kin Id");
+		int KinId=in.nextInt();
+		System.out.println("enter the Email id");
+		String Emailid=in.next();
+		System.out.println("enter the Phone no");
+		int Phoneno=in.nextInt();
+		System.out.println("enter the Address");
+		String address=in.next();
+		System.out.println("enter the Date of birth");
+		String date_of_birth=in.next();
+		System.out.println("enter the Date of Joining");
+		String Date_of_Joining=in.next();
+		System.out.println("enter the Department");
+		String Department=in
+		
+		
+	}
+		
+
+	public void AddEmployee() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void modifyEmployee()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void removeEmployee()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void searchEmployee() 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getAllEmployee() 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+
